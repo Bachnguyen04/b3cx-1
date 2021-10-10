@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: #2b2e4a
+}
+
+.welcomePage {
+	background: #903749;
+	width: 800px;
+	height: 500px;
+	margin: 7% auto 0px;
+}
+
+.welcomePage p {
+  margin: 0;
+	background: #e84545;
+	padding: 20px 10px 20px 165px;
+	font-size: 60px;
+	font-weight: 700px;
+	font-family: "Bebas Neue", cursive;
+  color: #53354a
+}
+
+.logInPage {
+  background: rgb(255, 215, 215);
+  width: 250px;
+  height: 300px;
+  margin: 2% auto 0px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flexbox;
+  padding: 25px 30px;
+  line-height: 30px;
+  box-shadow: 9px 15px 12px #2b2e4a
+}
+
+.logInPage img {
+  width: 80px;
+  height: 80px;
+  margin: 3% 85px 0px;
+}
+
+.navSign {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.navSign button {
+  border-radius: 20px;
+  border: none;
+  padding: 5px 10px;
+  background-color: rgb(233, 82, 13);
+  font-family: "Bebas Neue", cursive;
+  font-size: 19px;
+  color: rgb(253, 253, 253);
+  cursor: pointer;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.logInPage input {
+  border: none;
+  border-radius: 20px;
+  padding: 6px;
+  width: 245px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.logInPage a {
+  display: inline-block;
+  display: flexbox;
+  color: rgb(92, 25, 25);
+  font-size: 14px;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  margin-left: 75px;
+}
+
+.logInPage a:hover {
+  color: rgb(26, 166, 247);
+  text-decoration: underline;
+}
